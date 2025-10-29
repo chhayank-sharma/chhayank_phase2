@@ -2,7 +2,7 @@
 
 ## Description:
 
-Can you figure out what is in the eax register at the end of the main function? Put your answer in the picoCTF flag format: picoCTF{n} where n is the contents of the eax register in the decimal number base. If the answer was 0x11 your flag would be picoCTF{17}. Disassemble [this](debugger0_a).
+Can you figure out what is in the eax register at the end of the main function? Put your answer in the picoCTF flag format: picoCTF{n} where n is the contents of the eax register in the decimal number base. If the answer was 0x11 your flag would be picoCTF{17}. Disassemble [this](RE/debugger0_a).
 
 ## Solution:
  
@@ -50,7 +50,7 @@ picoCTF{549698}
 
 # 2. ARMssembly 1
 
-For what argument does this program print `win` with variables 81, 0 and 3? File: [chall_1.S](chall_1.S) Flag format: picoCTF{XXXXXXXX} -> (hex, lowercase, no 0x, and 32 bits. ex. 5614267 would be picoCTF{0055aabb})
+For what argument does this program print `win` with variables 81, 0 and 3? File: [chall_1.S](RE/chall_1.S) Flag format: picoCTF{XXXXXXXX} -> (hex, lowercase, no 0x, and 32 bits. ex. 5614267 would be picoCTF{0055aabb})
 
 ## Solution:
 
@@ -200,7 +200,7 @@ picoCTF{0000001b}
 
 # 3. Vauld door 3
 
-This vault uses for-loops and byte arrays. The source code for this vault is here: [VaultDoor3.java](VaultDoor3.java)
+This vault uses for-loops and byte arrays. The source code for this vault is here: [VaultDoor3.java](RE/VaultDoor3.java)
 
 ## Solution:
 
