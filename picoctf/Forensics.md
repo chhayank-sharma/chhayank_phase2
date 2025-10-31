@@ -82,22 +82,30 @@ picoCTF{}
 
 ***
 
-# 3. 
+# 3. m00nwalk
 
 ## Description:
 
-
+Decode this [message](F/message.wav) from the moon.
 
 ## Solution:
 
+In this challenge, we have been given a `.wav` file. If we take a look at the first hint, it says `How did pictures from the moon landing get sent back to Earth?`.
 
+On googling this, we will find out about something called `Slow-Scan Television (SSTV)`. We can then find an online SSTV decoder such as [this](https://sstv-decoder.mathieurenaud.fr/) to decode the `.wav` file.
+
+![SSTV-decoder.png](F/SSTV-decoder.png)
+
+This will give us a `.png` image from where we can see the flag `picoCTF{beep_boop_im_in_space}`.
+
+![decoded-image.png](F/decoded-image.png)
 
 ## Flag:
 
 ```
-picoCTF{}
+picoCTF{beep_boop_im_in_space}
 ```
 
 ## Concepts learnt:
 
-- 
+- They used SSTV to transmit the pictures from the moon landing
